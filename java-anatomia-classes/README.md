@@ -37,3 +37,43 @@ int IDADE_ALUNO = 20;
 ```
 
 A palavra reservada final transforma a variável em uma constante.
+
+## Declarando variáveis e métodos:
+
+Declarar uma variável em java segue sempre a seguinte estrutura:
+
+Tipo nomeBemDefinido = atribuição (opcional em alguns casos).
+
+Exemplo:
+
+int idade = 23;
+double altura = 1.62;
+Dog spike; (neste exemplo dog é uma classe que representa um cachorro e essa variavel ainda não recebera um valor).
+
+Declarando metodos em java segue uma estrutura bem simples:
+
+TipoRetorno NomeObjetivoNoInfinitivo parametro(s)
+
+Exemplo:
+
+```
+int somar (int numeroUm, int numeroDois){
+
+}
+```
+Um método pode ter um parametro diferente de um tipo.
+
+```
+public static String nomeCompleto (String firstName, String lastName) {
+        // O método concat é usado para concatenar duas strings.
+        // O método concat não adiciona espaço entre as strings, então é necessário adicionar um espaço manualmente. Como foi feito abaixo.
+            return firstName.concat(" ").concat(lastName);
+     }
+```
+
+Nota:
+
+O modificador 'static' significa que o método pertence à classe, e não a um objeto dela.
+Métodos 'static' podem ser chamados sem criar um objeto da classe.
+O método 'main' precisa ser static, pois é o ponto de entrada da aplicação.
+Um método static só pode acessar diretamente outros métodos ou variáveis static.
