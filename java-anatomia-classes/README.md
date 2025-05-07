@@ -1,20 +1,22 @@
-## Getting Started
+## Classes
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Classes deverão começar com as primeiras letras em maiúsculo.
 
-## Folder Structure
+Exemplo:
 
-The workspace contains two folders by default, where:
+```
+public classs MinhaClasse {
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+}
+```
+Grande parte das clases começam com o prefixo "public class".
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Se a classe for uma classe executável, ou seja, uma classe que irá inicializar algo do proejeto. Essa classe deverá ter um método principal que é o main.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-
-# teste
+```
+public class MinhaClasse {
+    public static void main(String [] args) {
+        
+    }
+}
+```
