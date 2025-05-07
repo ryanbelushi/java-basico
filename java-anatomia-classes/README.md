@@ -1,5 +1,17 @@
 ## Classes
 
+Uma classe em Java é um modelo que define atributos (variáveis) e métodos (funções).
+
+Ela serve como base para criar objetos.
+
+Um objeto é uma **instância** da classe.
+
+Instância significa que algo foi "criado a partir do molde" (classe).
+
+  Exemplo: se a classe for "Carro", criar um objeto é como fabricar um carro real com base no projeto.
+  
+Cada instância pode ter valores diferentes, mas segue a mesma estrutura da classe.
+
 Classes deverão começar com as primeiras letras em maiúsculo.
 
 Exemplo:
