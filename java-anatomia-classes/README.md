@@ -1,18 +1,18 @@
 ## Classes
 
-Uma classe em Java é um modelo que define atributos (variáveis) e métodos (funções).
+- Uma classe em Java é um modelo que define atributos (variáveis) e métodos (funções).
 
-Ela serve como base para criar objetos.
+- Ela serve como base para criar objetos.
 
-Um objeto é uma **instância** da classe.
+- Um objeto é uma **instância** da classe.
 
-Instância significa que algo foi "criado a partir do molde" (classe).
+- Instância significa que algo foi "criado a partir do molde" (classe).
 
-  Exemplo: se a classe for "Carro", criar um objeto é como fabricar um carro real com base no projeto.
+  - Exemplo: se a classe for "Carro", criar um objeto é como fabricar um carro real com base no projeto.
   
-Cada instância pode ter valores diferentes, mas segue a mesma estrutura da classe.
+- Cada instância pode ter valores diferentes, mas segue a mesma estrutura da classe.
 
-Classes deverão começar com as primeiras letras em maiúsculo.
+- Classes deverão começar com as primeiras letras em maiúsculo.
 
 Exemplo:
 
@@ -21,9 +21,9 @@ public classs MinhaClasse {
 
 }
 ```
-Grande parte das clases começam com o prefixo "public class".
+- Grande parte das clases começam com o prefixo "public class".
 
-Se a classe for uma classe executável, ou seja, uma classe que irá inicializar algo do proejeto. Essa classe deverá ter um método principal que é o main.
+- Se a classe for uma classe executável, ou seja, uma classe que irá inicializar algo do proejeto. Essa classe deverá ter um método principal que é o main.
 
 ```
 public class MinhaClasse {
@@ -34,13 +34,13 @@ public class MinhaClasse {
 ```
 ## Padrão de nomenclatura
 
-Todo arquivo .java deve começar com a letra maiuscula, caso seja uma palavra composta, ambas palavras deverão ter a letra maiuscula.
+- Todo arquivo .java deve começar com a letra maiuscula, caso seja uma palavra composta, ambas palavras deverão ter a letra maiuscula.
 
-A classe deverá ter o mesmo nome do arquivo.
+- A classe deverá ter o mesmo nome do arquivo.
 
-As variáveis deverão seguir o padrão camelCase.
+- As variáveis deverão seguir o padrão camelCase.
 
-Quando queremos declarar uma variável que não terá o valor alterado ela deverá seguir o padrão abaixo:
+- Quando queremos declarar uma variável que não terá o valor alterado ela deverá seguir o padrão abaixo:
 
 ```
 final String BR = "Brasil";
@@ -48,13 +48,13 @@ double PI = 3.14;
 int IDADE_ALUNO = 20;
 ```
 
-A palavra reservada final transforma a variável em uma constante.
+- A palavra reservada final transforma a variável em uma constante.
 
 ## Declarando variáveis e métodos:
 
-Declarar uma variável em java segue sempre a seguinte estrutura:
+ Declarar uma variável em java segue sempre a seguinte estrutura:
 
-Tipo nomeBemDefinido = atribuição (opcional em alguns casos).
+ Tipo nomeBemDefinido = atribuição (opcional em alguns casos).
 
 Exemplo:
 
@@ -83,21 +83,21 @@ public static String nomeCompleto (String firstName, String lastName) {
 
 Nota:
 
-O modificador 'static' significa que o método pertence à classe, e não a um objeto dela.
+- O modificador 'static' significa que o método pertence à classe, e não a um objeto dela.
 
-Métodos 'static' podem ser chamados sem criar um objeto da classe.
+- Métodos 'static' podem ser chamados sem criar um objeto da classe.
 
-O método 'main' precisa ser static, pois é o ponto de entrada da aplicação.
+- O método 'main' precisa ser static, pois é o ponto de entrada da aplicação.
 
-Um método static só pode acessar diretamente outros métodos ou variáveis static.
+- Um método static só pode acessar diretamente outros métodos ou variáveis static.
 
 ## Organizando arquivos:
 
-À medida que nosso sistema vai evoluindo, surgem novos arquivos (código fonte) em nossa estrutura de arquivos do projeto. Isso exige  que seja realizado uma organização destes arquivos através de pacotes (packages).
+- À medida que nosso sistema vai evoluindo, surgem novos arquivos (código fonte) em nossa estrutura de arquivos do projeto. Isso exige  que seja realizado uma organização destes arquivos através de pacotes (packages).
 
 ## Java beans
 
-É um padrão de estrutura de escrita feito pela comunidade java.
+- É um padrão de estrutura de escrita feito pela comunidade java.
 
 ### Variáveis
 
