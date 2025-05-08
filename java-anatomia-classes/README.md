@@ -90,3 +90,17 @@ Métodos 'static' podem ser chamados sem criar um objeto da classe.
 O método 'main' precisa ser static, pois é o ponto de entrada da aplicação.
 
 Um método static só pode acessar diretamente outros métodos ou variáveis static.
+
+## Organizando arquivos:
+
+À medida que nosso sistema vai evoluindo, surgem novos arquivos (código fonte) em nossa estrutura de arquivos do projeto. Isso exige  que seja realizado uma organização destes arquivos através de pacotes (packages).
+
+## Java beans
+
+É um padrão de estrutura de escrita feito pela comunidade java.
+
+### Variáveis
+
+- Uma variável deve ser clara, sem abreviações ou definição sem sentido;
+- Uma variável é sempre no singular, **exceto quando se referir a um array ou coleção**;
+- Uma variável deve ter um único idioma;
